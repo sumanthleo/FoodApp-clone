@@ -1,0 +1,368 @@
+.Rectangle {
+  width: 250px;
+  margin-left: 100px;
+  box-shadow: 2px 2px 3px 3px rgb(170, 252, 145);
+  background-color: #fff;
+}
+.header-text {
+  height: 51px;
+  margin: 27px 25px 27px 113px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.filter {
+  color: #192f60;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.select-text {
+  color: #192f60;
+  margin: 15px;
+  font-size: 20px;
+}
+
+#select-tags {
+  color: grey;
+  text-align: center;
+  margin-left: 15px;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.cuisine {
+  padding: 10 px;
+  color: #192f60;
+  font-size: 21px;
+  margin: 15px;
+}
+.checkboxs {
+  margin: 15px 0px 5px 15px;
+}
+
+label {
+  padding: 8px;
+}
+
+.cost-for-two {
+  color: #192f60;
+  font-size: 21px;
+  margin: 15px 0px 5px 15px;
+}
+.radiobuttons {
+  padding: 15px;
+}
+.sort {
+  color: #192f60;
+  font-size: 21px;
+  margin: 25px 0px 0px 20px;
+}
+.sorts {
+  color: #192f60;
+  margin-left: 20px;
+}
+#radio {
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+.square {
+  width: 794px;
+  height: 250px;
+  margin-left: 10vw;
+  box-shadow: 2px 2px 3px 3px rgb(170, 252, 145);
+  background-color: #fff;
+  margin-bottom: 5%;
+}
+
+.small-items {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.small-square1 {
+  font-size: 25px;
+
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+  border: solid 1px #8c96ab;
+  background-color: #e86914;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-right: 15px;
+  padding-right: 30px;
+}
+
+.image-section {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.imgsss {
+  border-radius: 25%;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  -o-border-radius: 25%;
+  padding: 15px;
+  padding-left: 30px;
+}
+
+.image-text {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+h1 {
+  color: #192f60;
+}
+
+h6 {
+  color: #192f60;
+  font-size: 15px;
+  padding: 5px;
+}
+
+p {
+  color: gray;
+  padding-top: 3px;
+  padding-left: 10px;
+}
+.details {
+  margin-left: 55px;
+  margin-top: 25px;
+}
+
+.details-headline {
+  color: #8c96ab;
+}
+
+.span-headline1 {
+  color: #192f60;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+.span-headline2 {
+  color: #192f60;
+  padding-left: 28px;
+}
+
+.hr-tag {
+  size: 5px;
+}
+.listsbtn {
+  list-style: none;
+  padding: 3px;
+  margin: 5px;
+}
+.listsbtnsss {
+  margin-left: 25%;
+  margin-top: 3%;
+  margin-bottom: 20px;
+}
+.btnsss {
+  display: flex;
+  flex-direction: row;
+}
+.btns {
+  padding: 10px;
+  background-color: rgb(167, 240, 145);
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: whitesmoke;
+  font-weight: 800;
+}
+.filtercontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .filtercontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .Rectangle {
+    width: 100px;
+    display: flex;
+    margin-left: 5%;
+    box-shadow: none;
+  }
+  .formssss {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .filter {
+    color: #192f60;
+    font-size: 30px;
+    display: none;
+  }
+  .cuisine {
+    color: #192f60;
+    font-size: 21px;
+  }
+  .cuisines {
+    color: grey;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .prices {
+    color: grey;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .square {
+    width: 90%;
+    height: auto;
+    margin-left: 4%;
+    box-shadow: 2px 2px 3px 3px rgb(170, 252, 145);
+    background-color: #fff;
+    margin-bottom: 5%;
+  }
+  .placebtn {
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(15, 30, 11);
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+  }
+}
+
+.Main_container {
+  width: 100%;
+  height: 100%;
+}
+.placebtn {
+  float: right;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: rgb(167, 240, 145);
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  margin-top: -10%;
+}
+
+/* #colorandSize {
+  color: grey;
+  text-align: center;
+  margin-left: 10px;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+} */
+.prices {
+  color: grey;
+  text-align: center;
+  margin-left: 15px;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+.cuisines {
+  color: grey;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+.sorts {
+  color: grey;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  margin-bottom: 10%;
+}
+.searchInputss {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.searchs input {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 30px;
+  height: 20px;
+  width: 160px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.searchIcons {
+  height: 40px;
+  width: 50px;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchIcons svg {
+  font-size: 35px;
+}
+
+.dataResults {
+  margin: 10px;
+  background-color: lightgreen;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dataResults::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResults .dataItems {
+  width: 100%;
+  /* height: 50px; */
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.dataItems p {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* a:hover {
+  background-color: lightgrey;
+} */
+
+#clearBtn {
+  cursor: pointer;
+}
