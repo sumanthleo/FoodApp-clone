@@ -26,12 +26,9 @@ const {
 } = require("../controller/PlaceOrder");
 const router = express.Router();
 
-exports.mailgun = () =>
-  mg({
-    apiKey: process.env.MAILGUN_API_KEY,
-    domain: process.env.MAILGUN_DOMIAN,
-  });
-
+router.get("/hi", (req, res) => {
+  res.send("Hello World");
+});
 router.post("/locations", LocationController.CreateLocations);
 router.get("/locations", LocationController.getLocations);
 router.post("/mealtype", createMealtype);
